@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il quadrato in movimento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <p class="eyebrow">ESPERIMENTO JAVASCRIPT</p>
+    <h1>Il quadrato in movimento</h1>
+    <p>Premi i pulsanti e guarda il quadrato muoversi nello spazio.</p>
+  </header>
+
+  <main>
+    <section class="controls" aria-label="Comandi">
+      <button id="startButton">Avvia movimento</button>
+      <button id="stopButton" class="secondary">Ferma</button>
+      <button id="resetButton" class="secondary">Ricomincia</button>
+    </section>
+
+    <section class="stage" aria-label="Area di movimento">
+      <div id="square" class="square"></div>
+    </section>
+
+    <p id="status" class="status" aria-live="polite">Pronto! Premi “Avvia movimento”.</p>
+  </main>
+
+  <footer>
+    <p>Realizzato con HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
